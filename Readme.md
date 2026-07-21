@@ -37,14 +37,14 @@ taiko, unichain, xlayer. Tambah/hapus sesuai kebutuhan.
 
 ```bash
 # Deploy ke beberapa jaringan MAINNET tertentu
-node deploy.js --artifact ./sample-artifacts/SimpleToken.json --networks ethereum,base,arbitrum --args "MyToken,MTK,1000000"
+node lim.js --artifact ./sample-artifacts/SimpleToken.json --networks ethereum,base,arbitrum --args "MyToken,MTK,1000000"
 
 # Deploy ke SEMUA jaringan mainnet yang terdaftar di networks.js
-node deploy.js --artifact ./sample-artifacts/SimpleToken.json --networks all --args "MyToken,MTK,1000000"
+node lim.js --artifact ./sample-artifacts/SimpleToken.json --networks all --args "MyToken,MTK,1000000"
 
 # Deploy ke TESTNET (tambahkan flag --testnet)
-node deploy.js --artifact ./sample-artifacts/SimpleToken.json --networks all --testnet --args "MyToken,MTK,1000000"
-node deploy.js --artifact ./sample-artifacts/SimpleToken.json --networks ethereum,base --testnet --args "MyToken,MTK,1000000"
+node lim.js --artifact ./sample-artifacts/SimpleToken.json --networks all --testnet --args "MyToken,MTK,1000000"
+node lim.js --artifact ./sample-artifacts/SimpleToken.json --networks ethereum,base --testnet --args "MyToken,MTK,1000000"
 ```
 
 Hasil deploy testnet disimpan terpisah di `deployment-results.testnet.json`,
