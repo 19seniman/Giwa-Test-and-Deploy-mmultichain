@@ -70,4 +70,4 @@ di-deploy.
 - Pastikan wallet deployer punya saldo native token (ETH/BNB/dst) yang cukup
   di **setiap** jaringan tujuan untuk membayar gas.
 - Selalu uji dulu di testnet sebelum deploy ke mainnet.
-- Jangan commit file `.env` ke repository publik.
+
